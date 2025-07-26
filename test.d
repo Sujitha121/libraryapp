@@ -19,3 +19,5 @@ public class LibraryManager {
 int choice;
 
         do {
+		System.out.println("\n1. Add Book\n2. View Books\n3. Exit");
+            System.out.print("Choice: ");
