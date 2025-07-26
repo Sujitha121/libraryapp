@@ -31,3 +31,7 @@ int choice;
 		     String author = sc.nextLine();
                     library.add(new Book(title, author));
                     System.out.println("Book added.");
+		    break;
+                case 2:
+                    System.out.println("\n📚 Your Library:");
+                    for (Book b : library) b.display();
