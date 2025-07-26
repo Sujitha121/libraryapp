@@ -35,3 +35,7 @@ int choice;
                 case 2:
                     System.out.println("\n📚 Your Library:");
                     for (Book b : library) b.display();
+		    break;
+                case 3:
+                    System.out.println("Exiting...");
+                    break;
