@@ -5,3 +5,5 @@ class Book {
     String author;
     Book(String t, String a) {
         title = t;
+	author = a;
+    }
