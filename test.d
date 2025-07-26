@@ -45,3 +45,6 @@ int choice;
 }
 
         } while (choice != 3);
+sc.close();
+    }
+}
