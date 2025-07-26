@@ -39,3 +39,7 @@ int choice;
                 case 3:
                     System.out.println("Exiting...");
                     break;
+		    default:
+                    System.out.println("Invalid choice.");
+            }
+
