@@ -25,3 +25,6 @@ int choice;
             sc.nextLine();
 	    switch (choice) {
                 case 1:
+			System.out.print("Enter book title: ");
+                    String title = sc.nextLine();
+                    System.out.print("Enter author: ");
