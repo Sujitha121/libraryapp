@@ -42,4 +42,6 @@ int choice;
 		    default:
                     System.out.println("Invalid choice.");
             }
+}
 
+        } while (choice != 3);
