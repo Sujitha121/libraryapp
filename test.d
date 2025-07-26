@@ -28,3 +28,6 @@ int choice;
 			System.out.print("Enter book title: ");
                     String title = sc.nextLine();
                     System.out.print("Enter author: ");
+		     String author = sc.nextLine();
+                    library.add(new Book(title, author));
+                    System.out.println("Book added.");
