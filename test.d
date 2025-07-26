@@ -23,3 +23,5 @@ int choice;
             System.out.print("Choice: ");
 	    choice = sc.nextInt();
             sc.nextLine();
+	    switch (choice) {
+                case 1:
