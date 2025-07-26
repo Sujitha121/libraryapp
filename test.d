@@ -7,3 +7,5 @@ class Book {
         title = t;
 	author = a;
     }
+    void display() {
+        System.out.println("📘 " + title + " by " + author);
