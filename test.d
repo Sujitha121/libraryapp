@@ -3,3 +3,5 @@ import java.util.Scanner;
 class Book {
     String title;
     String author;
+    Book(String t, String a) {
+        title = t;
