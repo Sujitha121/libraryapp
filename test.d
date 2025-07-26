@@ -9,3 +9,7 @@ class Book {
     }
     void display() {
         System.out.println("📘 " + title + " by " + author);
+	}
+}
+
+public class LibraryManager {
